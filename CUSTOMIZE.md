@@ -182,7 +182,7 @@ Here is a list of the main components that you may want to delete, and how to do
 
 To remove the blog, you have to:
 
-- delete [\_posts](_posts/) directory
+- delete [\_posts]<!--(_posts/)--> directory
 - delete blog page [\_pages/blog.md]<!-- (_pages/blog.md) -->
 - remove reference to blog page in our [\_pages/dropdown.md]<!--(_pages/dropdown.md)-->
 - remove the `latest_posts` part in [\_pages/about.md](_pages/about.md)
@@ -212,7 +212,7 @@ To remove the projects, you can:
 
 - delete the [\_projects](_projects/) directory
 - delete the projects page [\_pages/projects.md](_pages/projects.md)
-- remove reference to projects page in our [\_pages/dropdown.md](_pages/dropdown.md)
+- remove reference to projects page in our [\_pages/dropdown.md]<!--(_pages/dropdown.md)-->
 - remove projects part in the `Collections` section in the [\_config.yml](_config.yml) file
 
 You can also:
@@ -226,7 +226,7 @@ To remove the publications, you can:
 
 - delete the [\_bibliography](_bibliography/) directory
 - delete the publications page [\_pages/publications.md](_pages/publications.md)
-- remove reference to publications page in our [\_pages/dropdown.md](_pages/dropdown.md)
+- remove reference to publications page in our [\_pages/dropdown.md]<!--(_pages/dropdown.md)-->
 - remove `Jekyll Scholar` section in the [\_config.yml](_config.yml) file
 
 You can also:
