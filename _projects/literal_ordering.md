@@ -5,7 +5,7 @@ description: Analyzing and extending CAR-based strategies
 img: /assets/img/literal.png
 importance: 1
 category: master
-related_publications: true
+related_publications: false
 ---
 
 July. 2023 -- Dec. 2024 Supervised by Ofer Strichman from Technion.

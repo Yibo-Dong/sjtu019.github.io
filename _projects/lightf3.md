@@ -5,7 +5,7 @@ description: A formal framework for verifying railway interlocking systems
 img: /assets/img/topology.png
 importance: 1
 category: master
-related_publications: true
+related_publications: false
 ---
 
 June.2022 -- June.2023 Supervised by Jianwen Li and Geguang Pu from ECNU.

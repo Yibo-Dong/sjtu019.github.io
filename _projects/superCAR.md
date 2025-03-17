@@ -5,7 +5,7 @@ description: A parallel bit-level safety model checker
 img: /assets/img/hwmcc24_cdf_aiger.png
 importance: 1
 category: master
-related_publications: true
+related_publications: false
 ---
 Together with Yechuan Xia, we implemented a model checker portfolio, parallel running different variants containing optimizations proposed before, and took part in the AIGER track in the [HWMCC competition this year](https://hwmcc.github.io/2024/).
 
