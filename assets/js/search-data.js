@@ -30,7 +30,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-a-simple-inline-announcement",
+        },{id: "post-our-paper-is-accepted-in-spin-39-25",
+      
+        title: "Our paper is accepted in spin&#39;25!",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/2025/03/26/Our-paper-is-accepted-in-SPIN'25!.html";
+        
+      },
+    },{id: "post-our-paper-is-accepted-in-ieee-tcad",
+      
+        title: "Our paper is accepted in ieee tcad!",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/2025/03/08/Our-paper-is-accepted-in-IEEE-TCAD!.html";
+        
+      },
+    },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
