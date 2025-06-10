@@ -1,1 +1,0 @@
-Nice to have our paper **Accelerating CAR-based Model-Checking with Multiple Unsatisfiable Cores** accepted for publication in SPIN'25. Thanks to all the collaborators! See you in Canada!

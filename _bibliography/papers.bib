@@ -24,13 +24,17 @@ series = {ESEC/FSE 2023},
 abbr = {ESEC/FSE}
 }
 
-@misc{dclps24,
-      title={Revisiting Assumptions Ordering in CAR-Based Model Checking}, 
-      author={Yibo Dong and Yu Chen and Jianwen Li and Geguang Pu and Ofer Strichman},
-      year={2024},
-      eprint={2411.00026},
-      archivePrefix={arXiv},
-      primaryClass={cs.LO},
-      url={https://arxiv.org/abs/2411.00026}, 
-      abbr = {TCAD}
-}
+@ARTICLE{dclps24,
+  author={Dong, Yibo and Chen, Yu and Li, Jianwen and Pu, Geguang and Strichman, Ofer},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
+  title={Revisiting Assumptions Ordering in CAR-Based Model Checking}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Automobiles;Model checking;Runtime;Safety;Vectors;Training;Integrated circuits;Hardware;Formal verification;Design automation;Hardware Verification;Model Checking;Complementary Approximate Reachability},
+  doi={10.1109/TCAD.2025.3551658},
+  abstract = {Model checking is an automatic formal verification technique that is widely used in hardware verification. The state-of-the-art complete model-checking techniques, based on IC3/PDR and its general variant CAR, are based on computing symbolically sets of under-and over-approximating state sets (called 'frames') with multiple calls to a SAT solver. The performance of those techniques is sensitive to the order of the assumptions with which the SAT solver is invoked, because it affects the unsatisfiable cores that it emits if the formula is unsatisfiable — which the solver emits when the formula is unsatisfiable — that crucially affect the search process. This observation was previously published in DLPVR19, where two partial assumption ordering strategies, intersection and rotation were suggested (partial in the sense that they determine the order of only a subset of the literals). In this paper we extend and improve these strategies based on an analysis of the reason for their effectiveness. We prove that intersection is effective because of what we call locality of the cores, and our improved strategy is based on this observation. We conclude our paper with an extensive empirical evaluation of the various ordering techniques. One of our strategies, which switches between strategies at runtime, not only outperforms other, fixed ordering strategies, but also outperforms other state-of-the-art bug-finding algorithms such as ABC-BMC.},
+  abbr = {TCAD}
+  }
+

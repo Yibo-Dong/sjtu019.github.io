@@ -86,7 +86,11 @@
         "fluency": "Fluent (IELTS 8.0)"
       }
     ],
-    "volunteer": [],
+    "volunteer": [
+        {
+            "AE PC": "CAV'25"
+        }
+    ],
     "certificates": [],
     "interests": [],
     "references": []
