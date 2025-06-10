@@ -30,38 +30,17 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-our-paper-is-accepted-in-spin-39-25",
-      
-        title: "Our paper is accepted in spin&#39;25!",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/2025/03/26/Our-paper-is-accepted-in-SPIN'25!.html";
-        
-      },
-    },{id: "post-our-paper-is-accepted-in-ieee-tcad",
-      
-        title: "Our paper is accepted in ieee tcad!",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/2025/03/08/Our-paper-is-accepted-in-IEEE-TCAD!.html";
-        
-      },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+        },{id: "news-nice-to-have-our-paper-revisiting-assumptions-ordering-in-car-based-model-checking-accepted-for-publication-in-the-ieee-transactions-on-computer-aided-design-of-integrated-circuits-and-systems-thanks-to-all-the-collaborators-sparkles-smile",
+          title: 'Nice to have our paper Revisiting Assumptions Ordering in CAR-Based Model Checking accepted...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-nice-to-have-our-paper-accelerating-car-based-model-checking-with-multiple-unsatisfiable-cores-accepted-for-publication-in-spin-25-thanks-to-all-the-collaborators-see-you-in-canada-sparkles-smile",
+          title: 'Nice to have our paper Accelerating CAR-based Model-Checking with Multiple Unsatisfiable Cores accepted...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-m-serving-as-the-artifact-evaluation-pc-for-cav-25-smile",
+          title: 'I’m serving as the Artifact Evaluation PC for CAV’25! :smile:',
+          description: "",
+          section: "News",},{id: "news-nice-to-have-our-paper-unleash-the-hidden-power-of-car-based-model-checking-through-dynamic-traversal-accepted-for-publication-in-tase-25-thanks-to-all-the-collaborators-see-you-in-cyprus-sparkles-smile",
+          title: 'Nice to have our paper Unleash the Hidden Power of CAR-based Model Checking...',
           description: "",
           section: "News",},{id: "projects-automatic-correcting-of-basic-math-proofs",
           title: 'Automatic Correcting of Basic Math Proofs',
