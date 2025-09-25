@@ -24,17 +24,45 @@ series = {ESEC/FSE 2023},
 abbr = {ESEC/FSE}
 }
 
-@ARTICLE{dclps24,
+@ARTICLE{dong2025revisiting,
   author={Dong, Yibo and Chen, Yu and Li, Jianwen and Pu, Geguang and Strichman, Ofer},
   journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
   title={Revisiting Assumptions Ordering in CAR-Based Model Checking}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-1},
-  keywords={Automobiles;Model checking;Runtime;Safety;Vectors;Training;Integrated circuits;Hardware;Formal verification;Design automation;Hardware Verification;Model Checking;Complementary Approximate Reachability},
-  doi={10.1109/TCAD.2025.3551658},
-  abstract = {Model checking is an automatic formal verification technique that is widely used in hardware verification. The state-of-the-art complete model-checking techniques, based on IC3/PDR and its general variant CAR, are based on computing symbolically sets of under-and over-approximating state sets (called 'frames') with multiple calls to a SAT solver. The performance of those techniques is sensitive to the order of the assumptions with which the SAT solver is invoked, because it affects the unsatisfiable cores that it emits if the formula is unsatisfiable — which the solver emits when the formula is unsatisfiable — that crucially affect the search process. This observation was previously published in DLPVR19, where two partial assumption ordering strategies, intersection and rotation were suggested (partial in the sense that they determine the order of only a subset of the literals). In this paper we extend and improve these strategies based on an analysis of the reason for their effectiveness. We prove that intersection is effective because of what we call locality of the cores, and our improved strategy is based on this observation. We conclude our paper with an extensive empirical evaluation of the various ordering techniques. One of our strategies, which switches between strategies at runtime, not only outperforms other, fixed ordering strategies, but also outperforms other state-of-the-art bug-finding algorithms such as ABC-BMC.},
-  abbr = {TCAD}
-  }
+  volume={44},
+  number={10},
+  selected={true},
+  url = {{https://ieeexplore.ieee.org/abstract/document/10934092}},
+  abbr = {IEEE-TCAD},
+  pages={4032-4037},
+  keywords={Automobiles;Model checking;Runtime;Safety;Vectors;Training;Integrated circuits;Hardware;Formal verification;Design automation;Complementary approximate reachability (CAR);hardware verification;model checking},
+  doi={10.1109/TCAD.2025.3551658}
+}
+
+
+@article{dong2025accelerating,
+  title={Accelerating CAR-based Model-Checking with Multiple Unsatisfiable Cores},
+  year={2025},
+  abbr = {SPIN},
+  author={Dong, Yibo and Wu, Xiwei and Li, Jianwen and Pu, Geguang and Strichman, Ofer}
+}
+
+@InProceedings{dong2025unleash,
+author="Dong, Yibo
+and Chen, Yu
+and Li, Jianwen
+and Pu, Geguang",
+editor="R{\"u}mmer, Philipp
+and Wu, Zhilin",
+title="Unleash the Hidden Power of CAR-Based Model Checking Through Dynamic Traversal",
+booktitle="Theoretical Aspects of Software Engineering",
+year="2026",
+url={{https://link.springer.com/chapter/10.1007/978-3-031-98208-8_22}},
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="380--397",
+abbr = {TASE},
+abstract="Complementary Approximate Reachability (CAR) is a leading SAT-based model checking algorithm that combines under- and over-approximating state sequences to verify safety properties. However, its performance is hindered by redundant computations caused by the fixed-order traversal of the under-approximating sequence. To address such a limit, in this paper, we propose a dynamic traversal strategy to optimize CAR. By identifying common inefficiency patterns, we introduce heuristic methods and a scoring mechanism to prioritize states that are more likely to advance verification. We also prove that the correctness of the CAR algorithm can be preserved while exploring only a subset of the U-sequence, enabling partial traversal strategies that significantly reduce computational overhead. Experimental results demonstrate that our approach could solve 10{\%} more cases than the previous best CAR implementation [17] and outperform state-of-the-art IC3 model checkers, e.g., IC3-REF [4, 11]. Our method bridges the gap between CAR's theoretical potential and practical scalability, offering a more efficient solution for industrial-scale verification.",
+isbn="978-3-031-98208-8"
+}
 

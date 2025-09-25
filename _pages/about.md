@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Upcoming PhD Student at <a href='https://www.nus.edu.sg/'>NUS</a>. 
+subtitle: PhD Student at <a href='https://www.nus.edu.sg/'>NUS</a>. 
 
 profile:
   align: right
@@ -36,10 +36,9 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ## About Me
 
-I'm currently a master student in Software Engineering Institute at [East China Normal University(ECNU)](http://www.sei.ecnu.edu.cn/seien/33265/list.htm) since 2022, advised by Prof. [Geguang Pu](https://faculty.ecnu.edu.cn/_s43/pgg/main.psp) and Prof. [Jianwen Li](https://lijwen2748.github.io/). 
+I am currently a PhD student at the [TEST-Lab](https://nus-test.github.io/) in the [National University of Singapore (NUS)](https://nus.edu.sg/), advised by Prof. [Manuel Rigger](https://www.manuelrigger.at/). My research focuses on improving reliability through **testing** and **formal verification** techniques.  
 
-My current research interests revolve around solving real challenges using **formal verification** techniques, with a particular focus on **model checking** and **SAT**. At present, I am deeply engaged in the development of [Complementary Approximate Reachability(CAR)](https://arxiv.org/abs/1611.04946), a cutting-edge safety model checking algorithm. This involves not only refining the algorithm but also creating novel implementations and applying it to real-world problem-solving. 
+Before joining NUS, I completed my Master’s degree in Software Engineering at [East China Normal University (ECNU)](http://www.sei.ecnu.edu.cn/seien/33265/list.htm), advised by Prof. [Geguang Pu](https://faculty.ecnu.edu.cn/_s43/pgg/main.psp) and Prof. [Jianwen Li](https://lijwen2748.github.io/), where I worked on hardware model checking. I received my Bachelor’s degree from [Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/), where I studied compiler correctness and formal reasoning in the Coq proof assistant under Prof. [Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html).
+ 
 
-Before joining ECNU, I spent my undergraduate time at [Shanghai Jiao Tong University(SJTU)](https://www.sjtu.edu.cn/). I worked around compiler correctness and mathematical logic in Coq, the proof assistant, under supervision of Prof. [Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html).
 
-I will join [National University of Singapore(NUS)](https://www.nus.edu.sg) and work under Prof.[Manuel Rigger](https://www.manuelrigger.at/) soon in 2025 fall.
