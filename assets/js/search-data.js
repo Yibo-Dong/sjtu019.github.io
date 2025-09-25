@@ -42,7 +42,18 @@ ninja.data = [{
           section: "News",},{id: "news-nice-to-have-our-paper-unleash-the-hidden-power-of-car-based-model-checking-through-dynamic-traversal-accepted-for-publication-in-tase-25-thanks-to-all-the-collaborators-see-you-in-cyprus-sparkles-smile",
           title: 'Nice to have our paper Unleash the Hidden Power of CAR-based Model Checking...',
           description: "",
-          section: "News",},{id: "projects-automatic-correcting-of-basic-math-proofs",
+          section: "News",},{id: "news-arrived-at-singapore-and-starting-my-phd-life-in-nus-sparkle",
+          title: 'Arrived at Singapore and starting my PhD life in NUS! :sparkle:',
+          description: "",
+          section: "News",},{id: "news-nice-to-have-our-paper-diagnosing-performance-differences-in-model-checkers-via-runtime-guided-problem-generation-accepted-for-publication-in-ase-25-thanks-to-all-the-collaborators-see-you-in-korea-sparkles-smile",
+          title: 'Nice to have our paper Diagnosing Performance Differences in Model Checkers via Runtime-Guided...',
+          description: "",
+          section: "News",},{id: "projects-aigrow",
+          title: 'AIGROW',
+          description: "A feedback-driven generator for bit-level HWMC problems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/AIGROW.html";
+            },},{id: "projects-automatic-correcting-of-basic-math-proofs",
           title: 'Automatic Correcting of Basic Math Proofs',
           description: "Automatic grading tool for mathematical proofs",
           section: "Projects",handler: () => {
