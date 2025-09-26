@@ -1,12 +1,12 @@
 {
     "basics": {
       "name": "Yibo Dong",
-      "label": "Software Engineering Researcher",
+      "label": "PL/SE Researcher",
       "image": "",
       "email": "prodongf@gmail.com",
       "phone": "",
       "url": "yibodong.tech",
-      "summary": "Master student in Software Engineering at ECNU with research focus on formal verification, model checking, and automated tools for railway interlocking systems.",
+      "summary": "PhD student in Software Engineering at NUS with research focus on testing and verification.",
       "location": {
         "address": "",
         "postalCode": "",
@@ -23,6 +23,16 @@
       ]
     },
     "education": [
+      {
+        "institution": "National University of Singapore (NUS)",
+        "location": "Singapore",
+        "url": "",
+        "area": "PL/SE",
+        "studyType": "PhD Student",
+        "startDate": "2025-08",
+        "endDate": "TBD",
+        "courses": []
+      },
       {
         "institution": "East China Normal University (ECNU)",
         "location": "Shanghai, China",
@@ -87,9 +97,17 @@
       }
     ],
     "volunteer": [
-        {
-            "AE PC": "CAV'25"
-        }
+      {
+        "year": "2025",
+        "organization": "CAV 2025 Artifact Evaluation",
+        "position": "Program Committee (PC) Member",
+        "url": "https://cav2025ae.hotcrp.com/users/pc"
+      },
+      {
+        "year": "2025",
+        "organization": "Chinese Translation of the famous book ‘Decision Procedures: An Algorithmic Point of View’",
+        "position": "Reviewer and Proofreader"
+      }
     ],
     "certificates": [],
     "interests": [],
