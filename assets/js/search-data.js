@@ -30,14 +30,55 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-nice-to-have-our-paper-revisiting-assumptions-ordering-in-car-based-model-checking-accepted-for-publication-in-the-ieee-transactions-on-computer-aided-design-of-integrated-circuits-and-systems-thanks-to-all-the-collaborators-sparkles-smile",
+        },{id: "post-supercar-got-1-silver-1-bronze-in-this-year-39-s-hwmcc",
+      
+        title: "SuperCAR got 1 silver + 1 bronze in this year&#39;s HWMCC!",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/announcements/2025/10/17/hwmcc.html";
+        
+      },
+    },{id: "post-i-39-m-serving-as-the-student-volunteer-at-icfp-splash-39-25",
+      
+        title: "I&#39;m serving as the student volunteer at ICFP/SPLASH&#39;25!",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/announcements/2025/10/11/oopsla-SV.html";
+        
+      },
+    },{id: "post-had-an-amazing-time-co-hosting-the-first-hike-for-the-oopsla-39-25-outdoor-track",
+      
+        title: "Had an amazing time co-hosting the first hike for the OOPSLA&#39;25 outdoor track!...",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/announcements/2025/10/11/oopsla-hike.html";
+        
+      },
+    },{id: "post-i-39-m-serving-as-the-artifact-evaluation-pc-for-cav-39-25",
+      
+        title: "I&#39;m serving as the Artifact Evaluation PC for CAV&#39;25!",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/announcements/2025/03/26/cav25-aepc.html";
+        
+      },
+    },{id: "news-nice-to-have-our-paper-revisiting-assumptions-ordering-in-car-based-model-checking-accepted-for-publication-in-the-ieee-transactions-on-computer-aided-design-of-integrated-circuits-and-systems-thanks-to-all-the-collaborators-sparkles-smile",
           title: 'Nice to have our paper Revisiting Assumptions Ordering in CAR-Based Model Checking accepted...',
           description: "",
           section: "News",},{id: "news-nice-to-have-our-paper-accelerating-car-based-model-checking-with-multiple-unsatisfiable-cores-accepted-for-publication-in-spin-25-thanks-to-all-the-collaborators-see-you-in-canada-sparkles-smile",
           title: 'Nice to have our paper Accelerating CAR-based Model-Checking with Multiple Unsatisfiable Cores accepted...',
-          description: "",
-          section: "News",},{id: "news-i-m-serving-as-the-artifact-evaluation-pc-for-cav-25-smile",
-          title: 'I’m serving as the Artifact Evaluation PC for CAV’25! :smile:',
           description: "",
           section: "News",},{id: "news-nice-to-have-our-paper-unleash-the-hidden-power-of-car-based-model-checking-through-dynamic-traversal-accepted-for-publication-in-tase-25-thanks-to-all-the-collaborators-see-you-in-cyprus-sparkles-smile",
           title: 'Nice to have our paper Unleash the Hidden Power of CAR-based Model Checking...',
