@@ -36,7 +36,8 @@ abbr = {ESEC/FSE}
   abbr = {IEEE-TCAD},
   pages={4032-4037},
   keywords={Automobiles;Model checking;Runtime;Safety;Vectors;Training;Integrated circuits;Hardware;Formal verification;Design automation;Complementary approximate reachability (CAR);hardware verification;model checking},
-  doi={10.1109/TCAD.2025.3551658}
+  doi={10.1109/TCAD.2025.3551658},
+  abs={Model checking is an automatic formal verification technique that is widely used in hardware verification. The state-of-the-art complete model-checking techniques, based on IC3/PDR and its general variant CAR, are based on computing symbolically sets of under- and over-approximating state sets (called “frames”) with multiple calls to a SAT solver. The performance of those techniques is sensitive to the order of the assumptions with which the SAT solver is invoked, because it affects the unsatisfiable cores that it emits if the formula is unsatisfiable—which the solver emits when the formula is unsatisfiable—that crucially affect the search process. This observation was previously published (Dureja et al., 2020), where two partial assumption ordering strategies, intersection and rotation were suggested (partial in the sense that they determine the order of only a subset of the literals). In this article we extend and improve these strategies based on an analysis of the reason for their effectiveness. We prove that intersection is effective because of what we call locality of the cores, and our improved strategy is based on this observation. We conclude our paper with an extensive empirical evaluation of the various ordering techniques. One of our strategies, Hybrid-CAR, which switches between strategies at runtime, not only outperforms other, fixed ordering strategies, but also outperforms other state-of-the-art bug-finding algorithms, such as ABC-BMC.}
 }
 
 
@@ -45,6 +46,14 @@ abbr = {ESEC/FSE}
   year={2025},
   abbr = {SPIN},
   author={Dong, Yibo and Wu, Xiwei and Li, Jianwen and Pu, Geguang and Strichman, Ofer}
+}
+
+@InProceedings{dong2026diagnosing,
+  title={Diagnosing Performance Differences in Model Checkers via Runtime-Guided Problem Generation},
+  year={2025},
+  abbr={ASE},
+  author={Dong, Yibo and Xu, Yicong, and Deng, Wenjing and Yu, Chen and Zhang, Xiaoyu and Li, Jianwen and Zhang, Chengyu and Pu, Geguang},
+  selected={true},
 }
 
 @InProceedings{dong2025unleash,
@@ -56,7 +65,7 @@ editor="R{\"u}mmer, Philipp
 and Wu, Zhilin",
 title="Unleash the Hidden Power of CAR-Based Model Checking Through Dynamic Traversal",
 booktitle="Theoretical Aspects of Software Engineering",
-year="2026",
+year="2025",
 url={{https://link.springer.com/chapter/10.1007/978-3-031-98208-8_22}},
 publisher="Springer Nature Switzerland",
 address="Cham",
