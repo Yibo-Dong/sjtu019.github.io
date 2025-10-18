@@ -56,6 +56,13 @@
     ],
     "awards": [
       {
+        "title": "Bronze Medal (Bit Level Track) + Silver Medal (Word Level Without Array Track) - HWMCC 2025",
+        "date": "2025-10",
+        "awarder": "Hardware Model Checking Competition",
+        "url": "",
+        "summary": "Awarded for contributions to SuperCAR, a parallel safety model checker."
+      },
+      {
         "title": "Bronze Medal (AIGER Track) - HWMCC 2024",
         "date": "2024-09",
         "awarder": "Hardware Model Checking Competition",
