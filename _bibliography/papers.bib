@@ -21,7 +21,9 @@ numpages = {12},
 keywords = {Formal Methods, Interlocking Systems, Model Checking},
 location = {San Francisco, CA, USA},
 series = {ESEC/FSE 2023},
-abbr = {ESEC/FSE}
+abbr = {ESEC/FSE},
+pdf = {FSE23.pdf},
+artifact = {https://dl.acm.org/do/10.1145/3580405/full/}
 }
 
 @ARTICLE{dong2025revisiting,
@@ -37,7 +39,10 @@ abbr = {ESEC/FSE}
   pages={4032-4037},
   keywords={Automobiles;Model checking;Runtime;Safety;Vectors;Training;Integrated circuits;Hardware;Formal verification;Design automation;Complementary approximate reachability (CAR);hardware verification;model checking},
   doi={10.1109/TCAD.2025.3551658},
-  abs={Model checking is an automatic formal verification technique that is widely used in hardware verification. The state-of-the-art complete model-checking techniques, based on IC3/PDR and its general variant CAR, are based on computing symbolically sets of under- and over-approximating state sets (called “frames”) with multiple calls to a SAT solver. The performance of those techniques is sensitive to the order of the assumptions with which the SAT solver is invoked, because it affects the unsatisfiable cores that it emits if the formula is unsatisfiable—which the solver emits when the formula is unsatisfiable—that crucially affect the search process. This observation was previously published (Dureja et al., 2020), where two partial assumption ordering strategies, intersection and rotation were suggested (partial in the sense that they determine the order of only a subset of the literals). In this article we extend and improve these strategies based on an analysis of the reason for their effectiveness. We prove that intersection is effective because of what we call locality of the cores, and our improved strategy is based on this observation. We conclude our paper with an extensive empirical evaluation of the various ordering techniques. One of our strategies, Hybrid-CAR, which switches between strategies at runtime, not only outperforms other, fixed ordering strategies, but also outperforms other state-of-the-art bug-finding algorithms, such as ABC-BMC.}
+  abs={Model checking is an automatic formal verification technique that is widely used in hardware verification. The state-of-the-art complete model-checking techniques, based on IC3/PDR and its general variant CAR, are based on computing symbolically sets of under- and over-approximating state sets (called “frames”) with multiple calls to a SAT solver. The performance of those techniques is sensitive to the order of the assumptions with which the SAT solver is invoked, because it affects the unsatisfiable cores that it emits if the formula is unsatisfiable—which the solver emits when the formula is unsatisfiable—that crucially affect the search process. This observation was previously published (Dureja et al., 2020), where two partial assumption ordering strategies, intersection and rotation were suggested (partial in the sense that they determine the order of only a subset of the literals). In this article we extend and improve these strategies based on an analysis of the reason for their effectiveness. We prove that intersection is effective because of what we call locality of the cores, and our improved strategy is based on this observation. We conclude our paper with an extensive empirical evaluation of the various ordering techniques. One of our strategies, Hybrid-CAR, which switches between strategies at runtime, not only outperforms other, fixed ordering strategies, but also outperforms other state-of-the-art bug-finding algorithms, such as ABC-BMC.},
+  pdf = {TCAD25.pdf},
+  artifact = {https://github.com/AnonymousAccO-O-O/HybridCAR},
+  supp = {https://arxiv.org/abs/2411.00026}
 }
 
 
@@ -45,7 +50,30 @@ abbr = {ESEC/FSE}
   title={Accelerating CAR-based Model-Checking with Multiple Unsatisfiable Cores},
   year={2025},
   abbr = {SPIN},
-  author={Dong, Yibo and Wu, Xiwei and Li, Jianwen and Pu, Geguang and Strichman, Ofer}
+  author={Dong, Yibo and Wu, Xiwei and Li, Jianwen and Pu, Geguang and Strichman, Ofer},
+  pdf = {SPIN25.pdf},
+  artifact = {https://zenodo.org/records/15227232},
+  abstract = {Model checking is a framework for automated formal verifi-
+cation of transition systems, like hardware designs. Two leading model-
+checking techniques, PDR and CAR, are based on multiple calls to a SAT
+solver, for the purpose of finding a path to a bug or proving its absence.
+They build sequences of formulas, called frames, that represent approxi-
+mated sets of states, e.g., a frame can contain an over-approximation of
+the states that can reach the negated property within a given number of
+steps. Part of the process is to make these sets more precise, i.e., less ap-
+proximating, and this is done by strengthening the frames with negation
+of states that were proven to be spurious. A key component for perfor-
+mance is the ability of these engines to generalize those states and thus
+accelerate the process of making the frames more precise. This is done by
+strengthening them with the unsatisfiable cores that the SAT solver re-
+turns. In this work, we suggest several performance improvements to this
+process, most notably a technique for generating multiple such cores in
+linear time and adding them simultaneously to the frames. Our results
+show that our implementation of these techniques, on top of Simple-
+CAR, not only improves its performance, but also solves more (unsafe)
+cases than any other model-checker in the public domain, and solves in-
+stances from the HWMCC that no other model checker can solve, hence
+it contributes to the state-of-the-art}
 }
 
 @InProceedings{dong2026diagnosing,
@@ -54,6 +82,10 @@ abbr = {ESEC/FSE}
   abbr={ASE},
   author={Dong, Yibo and Xu, Yicong, and Deng, Wenjing and Yu, Chen and Zhang, Xiaoyu and Li, Jianwen and Zhang, Chengyu and Pu, Geguang},
   selected={true},
+  pdf = {ASE25.pdf},
+  artifact= {https://zenodo.org/records/16948503},
+  abstract={Model checking has achieved remarkable success in the hardware domain, largely due to the accumulation of intricate optimizations and finely tuned implementation details. As tools evolve, diagnosing performance differences to better understand the interplay of these factors has become increasingly important. Yet existing problems that reveal such differences are often too large for meaningful inspection, limiting their diagnostic value. To address the problem, this paper proposes AIGROW, a framework for generating hardware model checking problems, and introduces our experience on diagnosing performance differences in model checkers with the generated problems. AIGROW uses a feedback-guided process that evolves problems based on runtime information, selectively retaining those that become more difficult for a target checker. Performance differences are then revealed by evaluating these problems across hardware model checkers that have similar algorithms. Our evaluation demonstrates that AIGROW generates problems that are more than 100 times smaller than those produced by existing generators, while still revealing substantial performance differences. Diagnosing the performance differences has led to concrete improvements in CAR-based checkers: (1) uncovering structural inefficiencies in their exploration strategies, (2) solving 18 previously unsolvable HWMCC’24 problems, and (3) reducing runtime from hours to minutes in several cases.},
+
 }
 
 @InProceedings{dong2025unleash,
@@ -72,6 +104,8 @@ address="Cham",
 pages="380--397",
 abbr = {TASE},
 abstract="Complementary Approximate Reachability (CAR) is a leading SAT-based model checking algorithm that combines under- and over-approximating state sequences to verify safety properties. However, its performance is hindered by redundant computations caused by the fixed-order traversal of the under-approximating sequence. To address such a limit, in this paper, we propose a dynamic traversal strategy to optimize CAR. By identifying common inefficiency patterns, we introduce heuristic methods and a scoring mechanism to prioritize states that are more likely to advance verification. We also prove that the correctness of the CAR algorithm can be preserved while exploring only a subset of the U-sequence, enabling partial traversal strategies that significantly reduce computational overhead. Experimental results demonstrate that our approach could solve 10{\%} more cases than the previous best CAR implementation [17] and outperform state-of-the-art IC3 model checkers, e.g., IC3-REF [4, 11]. Our method bridges the gap between CAR's theoretical potential and practical scalability, offering a more efficient solution for industrial-scale verification.",
-isbn="978-3-031-98208-8"
+isbn="978-3-031-98208-8",
+pdf={TASE25.pdf},
+artifact={https://doi.org/10.5281/zenodo.15165732}
 }
 

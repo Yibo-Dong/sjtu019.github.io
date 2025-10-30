@@ -223,6 +223,11 @@
           <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
         {% endif %}
       {% endif %}
+      {% if entry.artifact %}
+        {% if entry.artifact contains '://' %}
+          <a href="{{ entry.artifact }}" class="btn btn-sm z-depth-0" role="button">Artifact</a>
+        {% endif %}
+      {% endif %}
       {% if entry.video and site.enable_video_embedding %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
       {% elsif entry.video %}
