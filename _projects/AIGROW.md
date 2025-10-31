@@ -30,3 +30,18 @@ AIGROW addresses these issues with a **runtime-guided generation process**:
 ---
 
 This work highlights how compact, feedback-guided benchmarks can accelerate **understanding, debugging, and advancing** hardware model checkers.
+
+---
+
+<div class="video-embed">
+	<p>
+		<a href="/assets/video/ASE25_aigrow.mp4">
+			<img src="/assets/img/ASE_25_Poster.png" alt="AIGROW poster" class="img-fluid rounded z-depth-1" style="max-width:100%;height:auto;" />
+		</a>
+	</p>
+
+	<video controls class="video-fluid img-fluid rounded z-depth-1" style="max-width:100%;height:auto;">
+		<source src="/assets/video/ASE25_aigrow.mp4" type="video/mp4">
+		您的浏览器不支持 video 标签。
+	</video>
+</div>
