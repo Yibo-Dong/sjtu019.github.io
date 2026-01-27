@@ -1,0 +1,18 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for item in data[1] %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-md-2 text-center">
+          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+            TA
+          </span>
+        </div>
+        <div class="col-md-10">
+          <div class="ml-1 ml-md-4 institution">
+            2025-2026 2nd semester, {{ item.organization }}
+          </div>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
